@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>stacs.smack.com</title>
+
+    <script src="prim.js" charset="utf-8"></script>
+    <script src="fire.js" charset="utf-8"></script>
+    <script src="move2.js" charset="utf-8"></script>
+    <script src="screen.js" charset="utf-8"></script>
+    <script src="main.js" charset="utf-8"></script>
+
+    <script>
+
+    function init() {
+    GRIDNUM = document.getElementById("getFIRSTNUM").value;
+    }
+
+    </script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+  </head>
+  <body onload="start()">
+
+
+      <canvas id="canvas" width="1000" height="1000"></canvas>
+      <div id="lose">
+      </div>
+      <div id="win">
+      </div>
+
+
+    <div class="container">
+      <div class="title">
+        <h1>Fire Safety</h1>
+        <img class="imgA" src="http://www.amazing-animations.com/animations/fire.gif"/>
+        <img class="imgB" src="http://www.amazing-animations.com/animations/fire.gif"/>
+      </div>
+
+      <div class="intro">
+        <h3>Sponsored by J.P Morgan: our financial services are smokin'</h3>
+        <img width="100px" src="http://jackleslie.neocities.org/jack2/hot.gif"/>
+        <br>
+        <p>This is out Hack the Bubble 2016 project, inspired by the fire safety talk at the beginning of the day.
+        The aim of the game is to escape the randomly generated Jack Cole lab without reaching a fiery demise.</p>
+        <p>(You will need to use the knowledge the STACS team bestowed on to us in the talk to complete the game.)</p>
+      </div>
+
+      <div class="instruct">
+        <ul>
+          <li>
+            <p>Up: W</p>
+          </li>
+          <li>
+            <form onsubmit="init()">
+              <input type="submit" value="Reset">
+            </form>
+          </li>
+          <li>
+            <p>Down: S</p>
+          </li>
+          <li>
+            <p>Left: A</p>
+          </li>
+          <li>
+            <p>Right: D</p>
+          </li>
+        </ul>
+      </div>
+
+      <div class="lower">
+        <h2>A game by Rafi, Kareem, Jamie and Jack</h2>
+        <img width="200px" src="https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F24678459%2F113927791887%2F1%2Foriginal.jpg?w=800&rect=0%2C0%2C850%2C425&s=7029efa8aa8bb0c79f7c591931dbf548"/>
+        <img src="http://www.amazing-animations.com/animations/comp009.gif"/>
+        <img src="http://www.amazing-animations.com/animations/cool004.gif"/>
+        <img src="http://www.amazing-animations.com/animations/comp021.gif"/>
+      </div>
+
+      <div class="foot">
+        <img class="imgC" src="http://www.amazing-animations.com/animations/fire4.gif"/>
+        <img class="imgD" src="http://www.amazing-animations.com/animations/fire4.gif"
+      </div>
+    </div>
+
+    <audio loop preload="auto"><source src="Pics/music.mp3"></audio>
+  </body>
+</html>

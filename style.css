@@ -1,0 +1,120 @@
+body,html {
+  padding:0;
+  margin:0;
+  overflow: hidden;
+}
+
+svg {
+  position: absolute;
+  top:0;
+  left:0;
+}
+
+canvas {
+  background-color:#1279AE;
+}
+
+#lose {
+  width:1000px;
+  height:1000px;
+  display:none;
+  background-image:url('Pics/over1.png');
+  position: absolute;
+  top:0;
+  left:0;
+}
+
+#win {
+  width:1000px;
+  height:1000px;
+  display:none;
+  background-image:url('Pics/win.png');
+  position: absolute;
+  top:0;
+  left:0;
+}
+
+.container {
+  background-color: #FF2F00;
+  display:block;
+  width: 700px;
+  height: 90%;
+  border: solid 1px black;
+  position:absolute;
+  margin: auto;
+  top:0;
+  padding:20px;
+
+  bottom:0;
+  right:5%;
+}
+
+.title {
+  display:inline-block;
+  width: 100%;
+  height:60px;
+}
+
+.title img {
+  position: absolute;
+}
+
+.intro {
+  padding-top:20px;
+  text-align: center;
+}
+
+.intro h3 {
+  font-size: 24px;
+}
+
+p {
+  font-size: 20px;
+  text-align: justify;;
+}
+
+.foot img {
+  position: absolute;
+}
+
+.foot {
+  position:absolute;
+  bottom:20px;
+  display:inline-block;
+  width: 100%;
+  height:60px;
+}
+
+.imgA {
+  top:0;
+  left:40px;
+}
+
+.imgB {
+  top:0;
+  right:40px;
+}
+
+.imgC {
+  bottom:0;
+  left:60px;
+}
+
+.imgD {
+  bottom:0;
+  right:6%;
+}
+
+.instruct li:nth-child(2) {
+  float:right;
+}
+
+.lower img {
+  margin-left: 10px;
+}
+
+h1 {
+  font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+  text-align: center;
+  font-size:70px;
+}
